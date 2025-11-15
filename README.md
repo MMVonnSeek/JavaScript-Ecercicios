@@ -69,4 +69,7 @@ Agradeço a dedicação de todos os alunos da turma de **Desenvolvedor Front-End
 Este repositório foi criado especialmente para acompanhar e apoiar sua jornada de aprendizado.
 
 ---
+Licença
+MIT — consulte o arquivo LICENSE.
+
 ⭐ Se este material te ajudou, lembre-se de deixar uma estrela no repositório!
