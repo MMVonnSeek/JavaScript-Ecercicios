@@ -1,0 +1,1 @@
+<img width="1536" height="1024" alt="20251114_1513_Logos Futuristas de Programação_simple_compose_01ka1rzwg5e2ktd4d4d11fc5k0" src="https://github.com/user-attachments/assets/e177abd0-81d1-4cfc-a95c-e38ec5da4717" />
