@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Atividade Avançada</title>
+</head>
+<body>
+  <h1 id="titulo">Turma de Programação</h1>
+  <p id="mensagem">Sejam bem-vindos!</p>
+
+  <div class="caixa">Mensagem 1</div>
+  <div class="caixa">Mensagem 2</div>
+  <div class="caixa">Mensagem 3</div>
+
+  <br><br>
+  <button onclick="alterarTitulo()">Alterar título</button>
+  <button onclick="trocarCor()">Trocar cor de fundo</button>
+  <button onclick="alterarCaixa1()">Alterar primeira caixa</button>
+  <button onclick="alterarCaixa2()">Alterar segunda caixa</button>
+  <button onclick="alterarCaixa3()">Alterar terceira caixa</button>
+
+  <script>
+    function alterarTitulo() {
+        document.getElementById("titulo").innerHTML = "Nova Turma de Javascrip";
+    }
+    
+    function trocarCor() {
+        document.querySelector("body").style.backgroundColor = "red";
+    }
+
+    function alterarCaixa1() {
+        document.querySelectorAll(".caixa")[0].innerHTML = "Texto alterado com querySelector!";
+    }
+
+    function alterarCaixa2() {
+        document.querySelectorAll(".caixa")[1].innerHTML = "Texto alterado com querySelector!";
+    }
+
+    function alterarCaixa3() {
+        document.querySelectorAll(".caixa")[2].innerHTML = "Texto alterado com querySelector!";
+    }
+  </script>
+</body>
+</html>

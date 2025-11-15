@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+</head>
+<body>
+    <button id="botao">Clique aqui</button><br>
+    <button id="botao1">Dizer Olá</button><br>
+    <button id="botao2">Mudar Cor</button><br>
+    
+    <p id="resultado"></p>
+    <button id="mostrarData">Mostrar data e hora</button>
+
+    
+
+
+
+    <script>
+       const btn = document.getElementById("botao");
+       btn.addEventListener("click", function() {
+        alert("Você clicou no botão");
+       });
+       const b1 = document.getElementById("botao1");
+       const b2 = document.getElementById("botao2");
+       b1.addEventListener("click", () => {
+        alert("Olá, desenvolvedor");
+       });
+       b2.addEventListener("dblclick", () => {
+        document.body.style.backgroundColor = "blue";
+       });
+
+       const b3 = document.getElementById("mostrarData");
+       const resultado = document.getElementById("resultado");
+
+       b3.addEventListener("click", () => {
+        const agora = new Date();
+        resultado.textContent = agora.toLocaleString();
+       });
+    </script>
+</body>
+</html>
